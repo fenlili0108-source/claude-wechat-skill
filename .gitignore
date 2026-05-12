@@ -1,0 +1,23 @@
+# AI Skill Content Library files
+content-library/sources/
+content-library/topics/
+content-library/reports/
+
+# Keep the directory structure but ignore contents
+!content-library/sources/.gitkeep
+!content-library/topics/.gitkeep
+!content-library/reports/.gitkeep
+
+# Index files should be included as they contain metadata
+# content-library/index.json
+# content-library/sources.json
+
+# OS and IDE files
+.DS_Store
+.vscode/
+.idea/
+
+# Node/Python artifacts (if any)
+__pycache__/
+*.pyc
+node_modules/
