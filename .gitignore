@@ -1,9 +1,9 @@
-# AI Skill Content Library files
-content-library/sources/
-content-library/topics/
-content-library/reports/
+# AI Skill Content Library files — keep directory structure, ignore user content
+content-library/sources/*
+content-library/topics/*
+content-library/reports/*
 
-# Keep the directory structure but ignore contents
+# Keep .gitkeep placeholders so the directory structure is preserved
 !content-library/sources/.gitkeep
 !content-library/topics/.gitkeep
 !content-library/reports/.gitkeep
